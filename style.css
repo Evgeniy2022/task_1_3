@@ -78,7 +78,7 @@ body{
 	display: flex;
 	align-items: center;
 }
-.service__block{
+.service__links{
 	display: flex;
 	align-items: center;
 }
@@ -111,9 +111,6 @@ body{
 	padding: 0 16px 0 0;
 }
 
-.service__before{
-	position: relative;
-}
 .main__container:first-of-type{
 	padding-right: 16px;
 	padding-left: 16px;
@@ -317,9 +314,6 @@ body{
 	.service__link--border--after::after{
 		display: none;
 	}
-	.service__before{
-		display: none;
-	}
 	.description{
 		margin: 0 auto;
 		max-width: 1120px;
@@ -336,7 +330,7 @@ body{
 		display: inline;
 	}
 
-	.service__block{
+	.service__links{
 		display: flex;
 		align-items: center;
 	}
